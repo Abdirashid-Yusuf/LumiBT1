@@ -132,7 +132,7 @@ public class MainActivity extends AppCompatActivity {
         btnEnableDisable_Discoverable = (Button) findViewById(R.id.btnDiscoverable_on_off);
         lvNewDevices = (ListView) findViewById(R.id.lvNewDevices);
         mBTDevices = new ArrayList<>();
-
+//
         mBlutoothadapter = BluetoothAdapter.getDefaultAdapter();
 
     btONOFF.setOnClickListener(new View.OnClickListener() {
