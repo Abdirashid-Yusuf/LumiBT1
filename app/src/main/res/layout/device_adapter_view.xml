@@ -15,6 +15,13 @@
         android:layout_height="wrap_content"
         android:id="@+id/tvDeviceAddress"
         android:textSize="15sp"/>
-
+    <ListView
+        android:id="@+id/lvNewDevices"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_below="@id/btnFindUnpairedDevices"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="82dp"
+        android:layout_marginBottom="451dp" />
 
 </LinearLayout>
