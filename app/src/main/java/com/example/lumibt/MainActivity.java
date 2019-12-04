@@ -130,6 +130,8 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         Button btONOFF = (Button) findViewById(R.id.btONOFF);
         btnEnableDisable_Discoverable = (Button) findViewById(R.id.btnDiscoverable_on_off);
+        lvNewDevices = (ListView) findViewById(R.id.lvNewDevices);
+        mBTDevices = new ArrayList<>();
 
         mBlutoothadapter = BluetoothAdapter.getDefaultAdapter();
 
