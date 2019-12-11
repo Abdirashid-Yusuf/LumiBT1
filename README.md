@@ -1,7 +1,7 @@
 
 # Bluetooth
 
-                                             	## Introduction
+                                      	## Introduction
 
 Bluetooth is a way to send and receive data between two different devices over short distance. Android platform includes support for the Bluetooth framework that allows devices to wirelessly exchange data with other Bluetooth devices. It can also be used for connecting to devices with Bluetooth capability for wireless audio transmission. We can enable Bluetooth using the Bluetooth adapter class
 ```
@@ -16,7 +16,7 @@ For this to happen, you need to add extra permisions in the AndroidManifest.xml
 <uses-permission android:name="android.permisson.BLUETOOTH"/>
 
 ``` 
-						### History
+					### History
 
 Bluetooth was first invented in 1994 by a man named Dr. Jaap Hartsen while working at Erricson.  Bluetooth has been available in the android studio from Android 2.0 éclair(API 5) but Bluetooth low energy support only from Android 4.3 Jelly Bean (API 18). The native Bluetooth stack is qualified for Bluetooth 5 in Android 8.0 . all devices need to have Bluetooth 5 qualified chipset in order to use the available Bluetooth 5 features.</br>
 
