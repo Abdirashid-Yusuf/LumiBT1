@@ -21,7 +21,7 @@ For this to happen, you need to add extra permisions in the AndroidManifest.xml
 Bluetooth was first invented in 1994 by a man named Dr. Jaap Hartsen while working at Erricson.  Bluetooth has been available in the android studio from Android 2.0 éclair(API 5) but Bluetooth low energy support only from Android 4.3 Jelly Bean (API 18). The native Bluetooth stack is qualified for Bluetooth 5 in Android 8.0 . all devices need to have Bluetooth 5 qualified chipset in order to use the available Bluetooth 5 features.</br>
 
 
-					### Major methods & Attributes </br>
+					### Major methods & Attributes 
 ## i)	BroadcastReicvers.    </br>
 I have used different methods throughout my project. Broadcast receivers have come in hand to catch the state change and log them. The first one is for ACTION_FOUND.
 ```
@@ -189,7 +189,7 @@ ACTION_FOUND //This is used for receiving information about each found device.  
 ACTION_BOND_STATE_CHANHGE // this indicate change in the bond state of the device.  </br>
 
 
-Note: Apart from the main class I have written a class DeviceListAdapter  to store devices
+Note: Apart from the main class I have written a class DeviceListAdapter  to store available devices
 
 			### Refferences
 
