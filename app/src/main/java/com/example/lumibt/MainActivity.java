@@ -225,6 +225,7 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
             registerReceiver(mBroadcastReceiver3, discoverDevicesIntent);
         }
 
+
         if(!mBlutoothadapter.isDiscovering()){
 
             //check BT permissions in manifest
