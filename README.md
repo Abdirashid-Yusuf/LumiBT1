@@ -1,4 +1,3 @@
-###                           Lumi Monitor
 
 # Bluetooth
 
